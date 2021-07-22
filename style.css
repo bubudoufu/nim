@@ -1,0 +1,40 @@
+.is-hidden {
+    display: none;
+}
+body {
+    text-align: center;
+    user-select: none;
+}
+table, .end{
+    margin-right: auto;
+    margin-left: auto;
+}
+.none {
+    pointer-events:none
+}
+#btn td {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border-radius: 50px;
+    font-size: 50px;
+    vertical-align: middle;
+}
+#btn td:hover,  #start td:hover, .end:hover{
+    background: rgb(243, 236, 227);
+    cursor: pointer;
+}
+#main td, #start td {
+    width: 100px;
+    height: 100px;
+    background-color: #6091d3;
+    border-radius: 5px;
+    vertical-align: middle;
+    font-size: 50px;
+
+}
+.end {
+    background-color: #6091d3;
+    border-radius: 5px;
+    width: 50%;
+}
